@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370D6AAF1CFA2E9F00487ABA /* MrPig.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 370D6AAE1CFA2E9F00487ABA /* MrPig.scnassets */; };
+		3761F2411D01E18C00E2282C /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761F23E1D01E18C00E2282C /* GameHelper.swift */; };
+		3761F2421D01E18C00E2282C /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761F23F1D01E18C00E2282C /* GameUtils.swift */; };
+		3761F2431D01E18C00E2282C /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761F2401D01E18C00E2282C /* SCNAction+Extensions.swift */; };
 		3784FC601CF634B000D87251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FC5F1CF634B000D87251 /* AppDelegate.swift */; };
 		3784FC621CF634B000D87251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FC611CF634B000D87251 /* ViewController.swift */; };
 		3784FC651CF634B000D87251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3784FC631CF634B000D87251 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		370D6AAE1CFA2E9F00487ABA /* MrPig.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = MrPig.scnassets; sourceTree = "<group>"; };
+		3761F23E1D01E18C00E2282C /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		3761F23F1D01E18C00E2282C /* GameUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
+		3761F2401D01E18C00E2282C /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
 		3784FC5C1CF634B000D87251 /* Mr.Pig_DieHard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mr.Pig_DieHard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3784FC5F1CF634B000D87251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3784FC611CF634B000D87251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3761F23D1D01E18C00E2282C /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3761F23E1D01E18C00E2282C /* GameHelper.swift */,
+				3761F23F1D01E18C00E2282C /* GameUtils.swift */,
+				3761F2401D01E18C00E2282C /* SCNAction+Extensions.swift */,
+			);
+			name = GameUtils;
+			path = MrPig.scnassets/GameUtils;
+			sourceTree = "<group>";
+		};
 		3784FC531CF634B000D87251 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +73,8 @@
 		3784FC5E1CF634B000D87251 /* Mr.Pig_DieHard */ = {
 			isa = PBXGroup;
 			children = (
+				3761F23D1D01E18C00E2282C /* GameUtils */,
+				370D6AAE1CFA2E9F00487ABA /* MrPig.scnassets */,
 				3784FC5F1CF634B000D87251 /* AppDelegate.swift */,
 				3784FC611CF634B000D87251 /* ViewController.swift */,
 				3784FC631CF634B000D87251 /* Main.storyboard */,
@@ -125,6 +146,7 @@
 				3784FC6A1CF634B000D87251 /* LaunchScreen.storyboard in Resources */,
 				3784FC671CF634B000D87251 /* Assets.xcassets in Resources */,
 				3784FC651CF634B000D87251 /* Main.storyboard in Resources */,
+				370D6AAF1CFA2E9F00487ABA /* MrPig.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3784FC621CF634B000D87251 /* ViewController.swift in Sources */,
+				3761F2431D01E18C00E2282C /* SCNAction+Extensions.swift in Sources */,
+				3761F2421D01E18C00E2282C /* GameUtils.swift in Sources */,
 				3784FC601CF634B000D87251 /* AppDelegate.swift in Sources */,
+				3761F2411D01E18C00E2282C /* GameHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +313,7 @@
 				3784FC701CF634B000D87251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
